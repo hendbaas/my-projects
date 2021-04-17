@@ -1,0 +1,151 @@
+/* my project*/
+.container-peoject{background: #d8bf25;height: 1300px;width: 1300px;margin: auto}
+.part1-project{
+ width: 1300px;
+ margin: auto}
+.top-project{
+ background: #d8bf25;
+ width:1300px;
+ height: 250px}
+.top-project h1{
+ text-align: center;
+ padding-top: 100px}
+ .top-project h1 span{color: white}
+ .part2-project{
+ background: black;
+  width:1300px;
+  margin: auto;
+  height: 600px;
+  position: relative}
+  .part2-project h1{
+  color: white;
+  position: absolute;
+  font-size: 45px;
+  right: 30%;
+  top:15%;
+ }
+.part2-project h1 span{
+border-bottom: 1px solid white;
+}
+h1 .span-project{color: black}
+.part2-project p{
+color: white;
+position: absolute;
+right: 46%;
+top: 30%;
+width: 100px;
+margin-top: 20px;
+line-height: 23px;
+}
+.part2-project a{
+position: absolute;
+bottom:9%;
+color: white;
+right: 43%;
+text-decoration: none;
+font-weight: bold;
+background: #d8bf25;
+padding: 10px 20px;
+border-radius: 50px;}
+.part2-project a i{color: white;
+margin-right: 5px}
+i .class1{
+color:white;
+position: absolute;
+bottom:11%;
+right: 39%}
+i .class2{
+color:white;
+position: absolute;
+bottom:11%;
+right: 35%;
+color:#d8bf25
+}
+i .class3{
+color:white;
+position: absolute;
+bottom:11%;
+right: 31%;}
+.part2-project img
+{position: absolute;
+width: 40%;
+height: 500px;
+left: 1%;
+top:-10%;
+border-radius: 20%}
+.part2-project ul {position: absolute;
+top:80%;
+left: 10%;
+background: #6c6014;
+padding: 10px 20px}
+.part2-project ul li
+{color:white;
+list-style: none;
+text-align: center;
+margin-top: 5px}
+.part3-project{width: 1300px;
+margin: auto;position: relative;
+background: #d8bf25}
+ .box{
+  position: relative;
+  width: 200px;
+  height: 400px;
+  margin:50px 115px auto;
+  float: left}
+ .box .parent{
+  position: relative;
+  width: 100px;
+  height: 150px
+ }
+ .box .parent svg{
+  position: relative;
+  width: 150px;
+  height: 150px}
+ .box .parent svg circle{
+  height: 150px;
+  width: 150px;
+  fill:none;
+  stroke-width:10;
+  stroke:black;
+  transform: translate(5px,5px);
+  stroke-dasharray:440;
+  stroke-dashoffset:440}
+  .box .parent svg circle:nth-child(1){
+  stroke-dashoffset:0;
+  stroke:#f3f3f3
+  }
+  .box .parent svg circle:nth-child(2){
+  stroke-dashoffset: 60;
+  stroke:black
+  }
+  .box  .number{
+  position: absolute;
+  top:50px;
+  left:30px;
+  float:left;
+  justify-content: center;
+  align-items: center;
+  color: black}
+.number h2{
+  font-size: 35px;
+  font-weight: 700;}
+.box  h1{
+ font-size: 30px;
+ padding-top: 20px;
+ font-weight: 700}
+  .box .parent svg .ck:nth-child(1){
+  stroke-dashoffset:0;
+  stroke:#f3f3f3
+  }
+  .box .parent svg .ck:nth-child(2){
+  stroke-dashoffset: 90;
+  stroke:black
+  }
+    .box .parent svg .mk:nth-child(1){
+  stroke-dashoffset:0;
+  stroke:#f3f3f3
+  }
+  .box .parent svg .mk:nth-child(2){
+  stroke-dashoffset: 150;
+  stroke:black
+  }
